@@ -1,29 +1,27 @@
 # Kim van Stratum's portfolio
 
-Welcome to my portfolio website! Here, I will attempt to showcase some of the projects I have been working on. 
+Welcome to my portfolio-page! Here, I will attempt to showcase some of the projects I have been working on. 
 
-## Podcast analysis and generator
+Most of these were made when attending my training at Bit Academy in the spring of 2022, but I will add and update with personal projects as well. 
+
+## [Podcast analysis and generator](https://github.com/KimvanSt/portfolio/tree/main/podcast)
+[Result of the podcast generator](https://user-images.githubusercontent.com/72267401/168476572-e1f6d73f-8606-4a4a-a087-150008fdd5eb.png)
 
 I analyzed a database with three sets of data on podcasts. These were interlinked by a podcast ID. I retreived and cleaned the data and analyzed which genres were getting most and higher reviews. I also built a random-podcast-generator that gives the user a podcast based on a chosen genre and subgenre, if any.
 
-## Dutch train times and stations
+## [Dutch train times and stations](https://github.com/KimvanSt/portfolio/tree/main/NS-stations)
+[Resulting table of my project]((https://user-images.githubusercontent.com/72267401/168476811-355ada43-3154-4352-9bd9-3ceafe57ea93.png))
 
 I used the API of the Dutch national train company to gather the next departures and corresponding final destinations, if any. I filtered out unuseable data and any non-Dutch train station. 
 
 ## Python
+1. [I built a basic calculator](https://github.com/KimvanSt/portfolio/blob/main/calculator.py)
+2. [I wrote the well-known 'FizzBuzz' code](https://github.com/KimvanSt/portfolio/blob/main/fizzbuzz.py)
+3. [I coded a roulette game](https://github.com/KimvanSt/portfolio/blob/main/roulette.py)
 
-In the spring of 2022 I attended a course at Bit Academy where I learned Python by executing several simple projects. These are a few examples: 
-1. I built a basic calculator
-2. I wrote the well-known 'FizzBuzz' code
-3. Gauss
-4. I used a pre-written code by another programmer to write a lootbox-opening code
-5. I coded a roulette game
-6. I wrote a Pokémon catcher
-
-## Data collection, cleaning and analysis
-
-In the Bit Academy course we also worked with collecting, cleaning data. These are a few sample projects I worked on: 
-1. I wrote code to find a target piece if information in an .nbt file
-2. I used Regex to find specific people from a large .txt file with address data
-3. I used Selenium to scrape Amazon for a certain type of laptop, using user input to determine the final page
-4. I analyzed various parameters of a large amount of Pokémon
+## Data collection, cleaning and analysis (Python (Jupyter Notebook, Pandas, Seaborn, Matplotlib, Selenium, BeautifulSoup), SQL (MySQL), JSON, Regex)
+1. [I wrote code to find a target piece of information in .nbt files](https://github.com/KimvanSt/portfolio/tree/main/minecraft-chests)
+2. [I used Regex to find specific people from a large .txt file with address data](https://github.com/KimvanSt/portfolio/tree/main/people-file)
+3. [I used Selenium to scrape Amazon for a certain type of laptop, using user input to determine the final page](https://github.com/KimvanSt/portfolio/tree/main/scrape-laptops)
+4. [I wrote a Pokémon catcher, fetching JSON information from a website and adding it to a database](https://github.com/KimvanSt/portfolio/tree/main/Pokemon-catcher)
+4. [I analyzed various parameters of a large amount of Pokémon](https://github.com/KimvanSt/portfolio/tree/main/Pokemon-analysis)
