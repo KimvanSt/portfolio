@@ -5,12 +5,12 @@ Welcome to my portfolio-page! Here, I will attempt to showcase some of the proje
 Most of these were made when attending my training at Bit Academy in the spring of 2022, but I will add and update with personal projects as well. 
 
 ## [Podcast analysis and generator](https://github.com/KimvanSt/portfolio/tree/main/podcast)
-[Result of the podcast generator](https://user-images.githubusercontent.com/72267401/168476572-e1f6d73f-8606-4a4a-a087-150008fdd5eb.png)
+<img src="images/podcastresult.png" width=30%>
 
 I analyzed a database with three sets of data on podcasts. These were interlinked by a podcast ID. I retreived and cleaned the data and analyzed which genres were getting most and higher reviews. I also built a random-podcast-generator that gives the user a podcast based on a chosen genre and subgenre, if any.
 
 ## [Dutch train times and stations](https://github.com/KimvanSt/portfolio/tree/main/NS-stations)
-[Resulting table of my project]((https://user-images.githubusercontent.com/72267401/168476811-355ada43-3154-4352-9bd9-3ceafe57ea93.png))
+<img src="images/nsresult.png">
 
 I used the API of the Dutch national train company to gather the next departures and corresponding final destinations, if any. I filtered out unuseable data and any non-Dutch train station. 
 
