@@ -19,9 +19,17 @@ I used the API of the Dutch national train company to gather the next departures
 2. [I wrote the well-known 'FizzBuzz' code](https://github.com/KimvanSt/portfolio/blob/main/fizzbuzz.py)
 3. [I coded a roulette game](https://github.com/KimvanSt/portfolio/blob/main/roulette.py)
 
-## Data collection, cleaning and analysis (Python (Jupyter Notebook, Pandas, Seaborn, Matplotlib, Selenium, BeautifulSoup), SQL (MySQL), JSON, Regex)
+## Data collection, cleaning and analysis 
+### (Python (Jupyter Notebook, Pandas, Seaborn, Matplotlib, Selenium, BeautifulSoup), SQL (MySQL), JSON, Regex)
 1. [I wrote code to find a target piece of information in .nbt files](https://github.com/KimvanSt/portfolio/tree/main/minecraft-chests)
 2. [I used Regex to find specific people from a large .txt file with address data](https://github.com/KimvanSt/portfolio/tree/main/people-file)
 3. [I used Selenium to scrape Amazon for a certain type of laptop, using user input to determine the final page](https://github.com/KimvanSt/portfolio/tree/main/scrape-laptops)
 4. [I wrote a Pokémon catcher, fetching JSON information from a website and adding it to a database](https://github.com/KimvanSt/portfolio/tree/main/Pokemon-catcher)
 4. [I analyzed various parameters of a large amount of Pokémon](https://github.com/KimvanSt/portfolio/tree/main/Pokemon-analysis)
+
+## HTML, CSS, JavaScript
+I worked on these in my Web Development Bootcamp (Colt Steele, Udemy) and training at Bit Academy. Will be updated with more JavaScript in the future.
+1. [Practiced building a blog website (HTML/CSS)](https://laloesblog.kimm501.repl.co/)
+2. [Practiced making a responsive mock hobby-webshop (HTML/CSS)](https://ruudsrommelhok.kimm501.repl.co/index.html)
+3. [A simple JavaScript color changer (HTML/CSS/JavaScript)](https://colorpicker.kimm501.repl.co/)
+4. [Used Bootstrap to build a landingpage for fictional dogshelter (HTML/CSS/Bootstrap)](https://boopbuddieslanding.kimm501.repl.co/)
