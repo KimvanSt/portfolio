@@ -1,16 +1,19 @@
 # Kim van Stratum's portfolio
 
-Welcome to my portfolio-page! Here, I will attempt to showcase some of the projects I have been working on. 
+Welcome to my portfolio-page! This is me, Kim van Stratum. I'm 31 years old and live in the Netherlands.
+<img src="images/bplp.jpg">
+
+I'm sharing some of the projects I have been working on. 
 
 Most of these were made when attending my training at Bit Academy in the spring of 2022, but I will add and update with personal projects as well. 
 
 ## [Podcast analysis and generator](https://github.com/KimvanSt/portfolio/tree/main/podcast)
-<img src="Images/podcastresult.png">
+<img src="images/podcastresult.png">
 
 I analyzed a database with three sets of data on podcasts. These were interlinked by a podcast ID. I retreived and cleaned the data and analyzed which genres were getting most and higher reviews. I also built a random-podcast-generator that gives the user a podcast based on a chosen genre and subgenre, if any.
 
 ## [Dutch train times and stations](https://github.com/KimvanSt/portfolio/tree/main/NS-stations)
-<img src="Images/nsresult.png">
+<img src="images/nsresult.png">
 
 I used the API of the Dutch national train company to gather the next departures and corresponding final destinations, if any. I filtered out unuseable data and any non-Dutch train station. 
 
