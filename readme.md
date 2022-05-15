@@ -4,6 +4,8 @@ Welcome to my portfolio-page! This is me, Kim van Stratum. I'm 31 years old and 
 
 <img src="images/bplp.jpg" width="50%" height="auto" border-radius="8px" display="block" margin-left="auto" margin-right="auto">
 
+You can find me on [LinkedIn](https://www.linkedin.com/in/kimvanstratum/), feel free to reach out! 
+
 I'm sharing some of the projects I have been working on. 
 
 Most of these were made when attending my training at Bit Academy in the spring of 2022, but I will add and update with personal projects as well. 
