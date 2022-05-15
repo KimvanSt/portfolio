@@ -1,7 +1,7 @@
 # Kim van Stratum's portfolio
 
 Welcome to my portfolio-page! This is me, Kim van Stratum. I'm 31 years old and live in the Netherlands.
-<img src="images/bplp.jpg">
+<img src="images/bplp.jpg" width=50% height=auto>
 
 I'm sharing some of the projects I have been working on. 
 
