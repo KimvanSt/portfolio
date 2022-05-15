@@ -5,7 +5,7 @@ Welcome to my portfolio-page! Here, I will attempt to showcase some of the proje
 Most of these were made when attending my training at Bit Academy in the spring of 2022, but I will add and update with personal projects as well. 
 
 ## [Podcast analysis and generator](https://github.com/KimvanSt/portfolio/tree/main/podcast)
-<img src="Images/podcastresult.png" width=30%>
+<img src="Images/podcastresult.png">
 
 I analyzed a database with three sets of data on podcasts. These were interlinked by a podcast ID. I retreived and cleaned the data and analyzed which genres were getting most and higher reviews. I also built a random-podcast-generator that gives the user a podcast based on a chosen genre and subgenre, if any.
 
