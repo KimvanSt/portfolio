@@ -15,7 +15,8 @@ session_start();
 
     $money = $_SESSION['money'] = $err = $result = "";
     # Defining money units
-    define('MONEYUNITS', array(50, 20, 10, 5, 2, 1));
+    define('CENTUNITS', array(50, 20, 10, 5, 2, 1));
+    define('EUROUNITS', array(500, 200, 100, 50, 20, 10, 5, 2, 1));
 
     # This function rounds an amount of cents to the nearest €0.05 value, eg. 8.37 > 8.35. 
     function roundToFive($centNumber)
@@ -34,9 +35,9 @@ session_start();
     }
 
     # This function loops through the coin / bills available and checks which ones should be handed out. 
-    function checkMoneyList($unit, $unitName, $string)
+    function checkMoneyList($unit, $unitName, $moneyArray, $string)
     {
-        foreach (MONEYUNITS as $coin) {
+        foreach ($moneyArray as $coin) {
             if ($unit >= $coin) {
                 $timesCoin = floor($unit / $coin);
                 $unit = fmod($unit, ($coin * $timesCoin));
@@ -54,10 +55,10 @@ session_start();
         $change = "";
         $cents = $amount - floor($amount);
         $euros = $amount - $cents;
-        $change = checkMoneyList($euros, "euro", $change);
+        $change = checkMoneyList($euros, "euro", EUROUNITS, $change);
         $cents = round($cents * 100);
         $cents = roundToFive($cents);
-        $change = checkMoneyList($cents, "cent", $change);
+        $change = checkMoneyList($cents, "cent", CENTUNITS, $change);
         return $change;
     }
 
@@ -100,7 +101,7 @@ session_start();
     {
         try {
             $moneyIn = floatval($userMoney);
-            $moneyOut = calcChange($moneyIn, MONEYUNITS);
+            $moneyOut = calcChange($moneyIn);
             return $moneyOut;
         } catch (Exception $x) {
             return "Caught error: unknown error";
