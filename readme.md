@@ -46,7 +46,7 @@ I wrote code that accepts an amount of euros and cents from a user, checks it an
 
 ## HTML, CSS, JavaScript
 
-I worked on these in my Web Development Bootcamp (Colt Steele, Udemy) and training at Bit Academy. Will be updated with more JavaScript in the future.
+I worked on these in my Web Development Bootcamp (Colt Steele, Udemy) and training at Bit Academy.
 
 1. [Practiced making a responsive mock hobby-webshop (HTML/CSS)](https://ruudsrommelhok.kimm501.repl.co/index.html)
 2. [A simple JavaScript color changer (HTML/CSS/JavaScript)](https://colorpicker.kimm501.repl.co/)
