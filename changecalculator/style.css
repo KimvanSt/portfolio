@@ -1,0 +1,76 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    padding-left: 2rem;
+    background-color: #B8CDF8;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.resulttext {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.resulttext img {
+    margin: 0 .3em;
+}
+
+#mainimg {
+    height: 150px;
+    width: auto;
+}
+
+img {
+    height: 75px;
+    width: auto;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: #41463D;
+}
+
+input[type=text] {
+    border-radius: 3px;
+}
+
+input[type=submit] {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: .4rem;
+    color: #41463D;
+    width: 90px;
+    height: 40px;
+    background: none;
+    border-radius: 10px;
+    border: 3px solid #096B72;
+}
+
+input[type=submit]:hover {
+    background: #096B72;
+    color: #FFEAEE;
+}
+
+input[type=submit]:active {
+    background-color: #704C5E;
+    box-shadow: 0 2px #7F675B;
+    transform: translateY(2px);
+}
