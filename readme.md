@@ -23,12 +23,12 @@ I analyzed a database with three sets of data on podcasts. These were interlinke
 (Python, Jupyter Notebooks, Pandas, SQL (MySQL))
 I used the API of the Dutch national train company to gather the next departures and corresponding final destinations, if any. I filtered out unuseable data and any non-Dutch train station.
 
-## Euro Change Calculator ([Repo](https://github.com/KimvanSt/portfolio/tree/main/changecalculator) or [Repl.it](https://change-calculator.kimm501.repl.co/))
+## [Blackjack](https://github.com/KimvanSt/portfolio/tree/main/Blackjack)
 
-<img src="images/changeresult.png">
+<img src="images/blackjack.png">
 
-(PHP, HTML, CSS)
-I wrote code that accepts an amount of euros and cents from a user, checks it and displays errors if necessary, rounds it to five cents, and outputs the correct change in images of bills and coins.
+(PHP)
+A game of BlackJack with any amount of players against the dealer.
 
 ## Python
 
@@ -44,11 +44,12 @@ I wrote code that accepts an amount of euros and cents from a user, checks it an
 3. [I used Selenium to scrape Amazon for a certain type of laptop, using user input to determine the final page](https://github.com/KimvanSt/portfolio/tree/main/scrape-laptops)
 4. [I wrote a Pokémon catcher, fetching JSON information from a website and adding it to a database](https://github.com/KimvanSt/portfolio/tree/main/Pokemon-catcher)
 
-## HTML, CSS, JavaScript
+## Web Development
 
 I worked on these in my Web Development Bootcamp (Colt Steele, Udemy) and training at Bit Academy.
 
-1. [Practiced making a responsive mock hobby-webshop (HTML/CSS)](https://ruudsrommelhok.kimm501.repl.co/index.html)
-2. [A simple JavaScript color changer (HTML/CSS/JavaScript)](https://colorpicker.kimm501.repl.co/)
-3. [Used Bootstrap to build a landingpage for fictional dogshelter (HTML/CSS/Bootstrap)](https://boopbuddieslanding.kimm501.repl.co/)
-4. [Two player Rock, Paper, Scissors (HTML/CSS/JavaScript)](https://rps.kimm501.repl.co/)
+1. Tool that accepts euros/cents from a user and returns the correct change [Repo](https://github.com/KimvanSt/portfolio/tree/main/changecalculator) / [Repl.it](https://change-calculator.kimm501.repl.co/))
+2. [Practiced making a responsive mock hobby-webshop (HTML/CSS)](https://ruudsrommelhok.kimm501.repl.co/index.html)
+3. [A simple JavaScript color changer (HTML/CSS/JavaScript)](https://colorpicker.kimm501.repl.co/)
+4. [Used Bootstrap to build a landingpage for fictional dogshelter (HTML/CSS/Bootstrap)](https://boopbuddieslanding.kimm501.repl.co/)
+5. [Two player Rock, Paper, Scissors (HTML/CSS/JavaScript)](https://rps.kimm501.repl.co/)
