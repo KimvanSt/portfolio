@@ -1,0 +1,3 @@
+[submodule "blackjack-app"]
+	path = blackjack-app
+	url = https://github.com/KimvanSt/blackjack-app.git
