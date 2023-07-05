@@ -9,7 +9,7 @@ I'm sharing some of the projects I have been working on.
 
 They are a mix between projects made during my study at Bit Academy and personal projects.
 
-## [Blackjack in a .NET Windows Forms app](https://github.com/KimvanSt/portfolio/tree/main/blackjack-app)
+## [Blackjack in a .NET Windows Forms app](https://github.com/KimvanSt/blackjack-app.git)
 
 <img src="images/blackjack.png">
 
